@@ -1,0 +1,29 @@
+package hocjava;
+import java.util.Scanner;
+public class lopDIem {
+	public static void main(String[] args) {
+		Diem Toado	 = new Diem ();
+		Toado.nhapToaDo();
+		Toado.inToaDo();
+	}
+}
+   class Diem{
+   	int ox,oy;
+    void nhapToaDo (){
+    
+    
+    	System.out.println (" nhap Tung Do :");
+    	Scanner sc=new Scanner (System.in);
+        	ox=sc .nextInt();
+  
+     	System.out.println (" nhap Hoanh Do :");
+     	;
+         	oy=sc .nextInt();
+    }
+   
+     void inToaDo(){
+    	System.out.println ("("+ox+","+oy+")");
+    
+    }
+    
+     }
